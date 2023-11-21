@@ -16,10 +16,19 @@ ul {
 	display: flex;
 }
 .horizontal-menu li{
-	margin-right: 520px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
 }
 .horizontal-menu a{
 	text-decoration: none;
 	color: #333;
 	font-weight: bold;
 }
+div {
+	background-color: lightgrey;
+	width: 300px;
+	border: lightblue;
+	padding: 10px;
+	margin: 20px;
+  }
